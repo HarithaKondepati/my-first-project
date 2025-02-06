@@ -1,3 +1,5 @@
+# Sorting Algorithm Visualizer
+
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -60,6 +62,7 @@ def merge_sort(arr):
             j += 1
             k += 1
     return arr
+
 # Taking user input
 arr = list(map(int, input("Enter numbers separated by space: ").split()))
 
